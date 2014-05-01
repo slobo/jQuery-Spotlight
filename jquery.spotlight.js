@@ -160,7 +160,7 @@
         }
 
         // Set up click to close
-        $(document).bind(settings.exitEvent, overlay, closeOverlay);
+        $(overlay).bind(settings.exitEvent, closeOverlay);
 
         // Returns the jQuery object to allow for chainability.
         return this;
